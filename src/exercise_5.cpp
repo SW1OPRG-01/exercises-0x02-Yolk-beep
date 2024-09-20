@@ -4,12 +4,14 @@ Now calculate the mean of die values and print it
 Make the mean calculation into a function*/
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
 
 int main() {
+    cout << "Please enter a number of wanted dice throws: ";
+    vector<int> DiceThrows;
     
-
     return 0;
 }

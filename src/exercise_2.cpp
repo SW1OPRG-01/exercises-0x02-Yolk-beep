@@ -7,6 +7,8 @@ h- and a cpp-file*/
 using namespace std;
 
 int main() {
-    
+    int x;
+    cin>>x;
+    int sum=summies(x);
     return 0;
 }

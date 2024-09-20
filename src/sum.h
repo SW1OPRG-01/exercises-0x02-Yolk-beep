@@ -3,5 +3,6 @@
 
 /*calculates the sum from 0 to and including n*/
 
+int summies(int x);
 
 #endif

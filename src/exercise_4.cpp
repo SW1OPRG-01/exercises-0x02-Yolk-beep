@@ -7,6 +7,15 @@ using namespace std;
 
 
 int main() {
-   
+    cout << "Please input an integer: ";
+    int x;
+    int y=0;
+    cin>>x;
+    while(y<x){
+        if (y%2==0)
+        cout << y << endl;
+        y=y+2;
+    }
+    cout << x << endl;
     return 0;
 }
